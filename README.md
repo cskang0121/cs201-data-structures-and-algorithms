@@ -14,7 +14,7 @@ the array
 - Write a method named findUnique that returns an array containing the unique values in the
 array
 
-> Problem statement for question 2 : An implementation of a Single Linked List has been given in SinglyLinkedList.java. Study the codes and complete the following requirements in SinglyLinkedList.java to extend the functionality of the linked list. Please ensure the head and tail nodes are set accordingly if they are impacted by the methods. Compile and run SinglyLinkedListTest.java to test your implementation.
+> Problem statement for question 2 : "An implementation of a Single Linked List has been given in SinglyLinkedList.java. Study the codes and complete the following requirements in SinglyLinkedList.java to extend the functionality of the linked list. Please ensure the head and tail nodes are set accordingly if they are impacted by the methods. Compile and run SinglyLinkedListTest.java to test your implementation."
 
 #### Tasks
 - Write a method named toString to print out the elements starting from the head element
@@ -22,7 +22,7 @@ array
 - Write a method named reverse that reverse the sequence of all the elements
 
 
-> Problem statement for question 3 : An implementation of a Double Linked List has been given in DoublyLinkedList.java. Study the codes and complete the following requirements in DoublyLinkedList.java to extend the functionality of the linked list. Please ensure the header and trailer nodes are set accordingly if they are impacted by the method. Compile and run DoublyLinkedListTest.java to test your implementation.
+> Problem statement for question 3 : "An implementation of a Double Linked List has been given in DoublyLinkedList.java. Study the codes and complete the following requirements in DoublyLinkedList.java to extend the functionality of the linked list. Please ensure the header and trailer nodes are set accordingly if they are impacted by the method. Compile and run DoublyLinkedListTest.java to test your implementation."
 
 #### Examples : 
 ```
@@ -67,6 +67,8 @@ SinglyLinkedList or to update the values of the element object within Node class
 - You should try to include more test cases (e.g. using a sequence of (1 to 1000) or (1 to 10000)
 to see how your code will respond to a bigger input size
 
+
+#### Examples : 
 ```
 Before Swap : 
 
@@ -117,6 +119,9 @@ Last Element  : 4
 - Write a method named checkPalindromeQueue in PalindromeTest.java to implement this with the use of queue
 - Write a method named checkPalindromeStackAndQueue in PalindromeTest.java to implement this with the combined use of stack and queue.
 
+
+
+#### Examples : 
 ```
 abc
 
@@ -136,3 +141,47 @@ Palindrome(Stack&Queue) : true
 ```
 #### Assignment 3
 - [Question_1](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_3/Q1)
+
+> Problem statement for question 1 : "Given 3 traversals, the objective is to verify if the 3 traversals are a valid combination of a binary search tree. Compile and run Q1Test.java to test your implementation."
+
+#### Tasks :
+- Write a method named verify that takes in 3 strings parameter (String traversal1, String traversal2, String traversal3) containing the traversal of a binary search tree.
+- The input parameters could be of any sequence e.g. traversal1 could be Inorder, Preorder, Postorder
+- The nodes in the sequence are separated by “-“ and contains integers only e.g. (1-2-3)
+- The nodes are unique in a traversal. e.g. (there won’t be 1-2-2-3)
+- If the 3 traversals are valid, the output prints the traversal orders of the respective strings. Otherwise, prints “Invalid traversals”
+- You can include additional classes.
+
+#### Examples :
+```
+Traversal 1 : 1-2
+Traversal 2 : 2-1-3
+Traversal 3 : 1-3-2
+Expected Result : Invalid traversals
+Actual Result   : Invalid traversals
+
+Traversal 1 : 1-2-3
+Traversal 2 : 2-1-3
+Traversal 3 : 1-3-2
+Expected Result : Traversal 1 - Inorder, Traversal 2 - Preorder, Traversal 3 - Postorder
+Actual Result   : Traversal 1 - Inorder, Traversal 2 - Preorder, Traversal 3 - Postorder
+
+Traversal 1 : 1-2-3
+Traversal 2 : 3-2-1
+Traversal 3 : 2-3-1
+Expected Result : Invalid traversals
+Actual Result   : Invalid traversals
+
+Traversal 1 : 3-1-2-5-4
+Traversal 2 : 2-1-4-5-3
+Traversal 3 : 1-2-3-4-5
+Expected Result : Traversal 1 - Preorder, Traversal 2 - Postorder, Traversal 3 - Inorder
+Actual Result   : Traversal 1 - Preorder, Traversal 2 - Postorder, Traversal 3 - Inorder
+
+Traversal 1 : 10-20-30-40-50
+Traversal 2 : 20-10-30-40-50
+Traversal 3 : 10-50-40-30-20
+Expected Result : Traversal 1 - Inorder, Traversal 2 - Preorder, Traversal 3 - Postorder
+Actual Result   : Traversal 1 - Inorder, Traversal 2 - Preorder, Traversal 3 - Postorder
+
+```
