@@ -1,6 +1,6 @@
-## CS201-data-structures-and-algorithms (Assignment Description)
+# CS201-data-structures-and-algorithms (Assignment Description)
 
-#### Assignment 1
+## Assignment 1
 - [Question_1](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_1/Q1)
 - [Question_2](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_1/Q2)
 - [Question_3](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_1/Q3)
@@ -53,7 +53,7 @@ First Element : null
 Last Element  : 3
 ```
 
-#### Assignment 2
+## Assignment 2
 - [Question_1](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_2/Q1)
 - [Question_2](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_2/Q2)
 
@@ -139,7 +139,7 @@ Palindrome(Stack)       : true
 Palindrome(Queue)       : true 
 Palindrome(Stack&Queue) : true
 ```
-#### Assignment 3
+## Assignment 3
 - [Question_1](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_3/Q1)
 
 > Problem statement for question 1 : "Given 3 traversals, the objective is to verify if the 3 traversals are a valid combination of a binary search tree. Compile and run Q1Test.java to test your implementation."
