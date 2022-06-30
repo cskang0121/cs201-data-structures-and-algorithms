@@ -1,11 +1,11 @@
-# CS201-data-structures-and-algorithms (Assignment Description)
+# Data Structures and Algorithms - Assignment Description
 
 ## Assignment 1
-[Question_1](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_1/Q1)
+[Question_1](https://github.com/cskang0121/data-structures-and-algorithms/tree/main/assignment_1/Q1)
 
-[Question_2](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_1/Q2)
+[Question_2](https://github.com/cskang0121/data-structures-and-algorithms/tree/main/assignment_1/Q2)
 
-[Question_3](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_1/Q3)
+[Question_3](https://github.com/cskang0121/data-structures-and-algorithms/tree/main/assignment_1/Q3)
 
 > Problem statement for question 1 : Given a non-empty Integer array and the values of the elements in the array are greater than 0. Complete the following requirements in NumbersArray.java.
 
@@ -56,9 +56,9 @@ Last Element  : 3
 ```
 
 ## Assignment 2
-[Question_1](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_2/Q1)
+[Question_1](https://github.com/cskang0121/data-structures-and-algorithms/tree/main/assignment_2/Q1)
 
-[Question_2](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_2/Q2)
+[Question_2](https://github.com/cskang0121/data-structures-and-algorithms/tree/main/assignment_2/Q2)
 
 > Problem statement for question 1 : "An implementation of a Single Linked List has been given in SinglyLinkedList.java. Study the codes and complete the following requirements in SinglyLinkedList.java to extend the functionality of the linked list. Please ensure the head and tail nodes are set accordingly if they are impacted by the method. Compile and run SinglyLinkedListTest.java to test your implementation."
 
@@ -143,7 +143,7 @@ Palindrome(Queue)       : true
 Palindrome(Stack&Queue) : true
 ```
 ## Assignment 3
-[Question_1](https://github.com/cskang0121/cs201-data-structures-and-algorithms/tree/main/assignment_3/Q1)
+[Question_1](https://github.com/cskang0121/data-structures-and-algorithms/tree/main/assignment_3/Q1)
 
 > Problem statement for question 1 : "Given 3 traversals, the objective is to verify if the 3 traversals are a valid combination of a binary search tree. Compile and run Q1Test.java to test your implementation."
 
