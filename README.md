@@ -13,7 +13,7 @@ encapsulation and localization, as well as how their concrete implementations in
 
 • Algorithmic strategies such as divide-and-conquer, iteration, recursion, randomization, etc., to achieve more effective problem solving and more efficient solutions.
 
-This course is different from Computational Thinking, as it goes into the theoretical underpinnings of efficiency, covers more data structures, and delves deeply into the implementations of those data structures.
+This course is different from general Computational Thinking, as it goes into the theoretical underpinnings of efficiency, covers more data structures, and delves deeply into the implementations of those data structures.
 
 ## Assignment 1
 [Question_1](https://github.com/cskang0121/data-structures-and-algorithms/tree/main/assignment_1/Q1)
