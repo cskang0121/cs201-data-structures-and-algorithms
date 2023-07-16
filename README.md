@@ -1,4 +1,4 @@
-## CS201 Data Structures and Algorithms
+## CS201 Data Structures And Algorithms
 
 This repository contains my solutions for an introductory course in data structures and algorithms. The course builds on students’ earlier programming experiences, moving beyond syntax and logic, to the question of how to build “better” programs focusing on organizing data and designing algorithms for efficiency. The materials as well as the assignments rely heavily on proficiency with Java programming language.
 
